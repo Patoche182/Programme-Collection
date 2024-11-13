@@ -2,16 +2,13 @@
 {
     internal class Program
     {
-
         static int SommeTableau(int[] t)
         {
             int somme = 0;
-
             for (int i = 0; i < t.Length; i++)
             {
                 somme += t[i];
             }
-
             return somme;
         }
 
@@ -43,7 +40,6 @@
 
             }
             //Console.WriteLine("Somme : " + SommeTableau(t));
-
         }
         static void Main(string[] args)
         {
