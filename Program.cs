@@ -14,7 +14,6 @@
 
         static void AfficherTableau(int[] tableau)
         {
-            ///
             for (int i = 0; i <tableau.Length; i++)
             {
                 Console.WriteLine("[" + i + "] " + tableau[i]);
@@ -23,23 +22,25 @@
 
         static void Tableaux()
         {
-            //int a = 5;
-            //a = 10;
+            /*
+            int a = 5;
+            a = 10;
 
-            // Tableaux => Array -> Taille FIXE !!!!
-            //int[] t = new int[6];
-            //t[0] = 2;
-            //t[1] = 4;
-            //t[2] = 1;
-            //t[3] = 5;
-            //t[4] = 5;
-            //t[5] = 3;
+            Tableaux => Array->Taille FIXE!!!!
+            int[] t = new int[6];
+            t[0] = 2;
+            t[1] = 4;
+            t[2] = 1;
+            t[3] = 5;
+            t[4] = 5;
+            t[5] = 3;
 
-            //int[] t = { 2, 4, 1, 5, 5, 3 }; // Notation equivalente
+            int[] t = { 2, 4, 1, 5, 5, 3 }; // Notation equivalente
 
-            //t[0] = 10;
+            t[0] = 10;
 
-            //Console.WriteLine(t[2]);
+            Console.WriteLine(t[2]);
+            */
 
             /*
             string[] t = { "Martin", "Emilie", "Paul" };
@@ -53,7 +54,17 @@
             //Console.WriteLine("Somme : " + SommeTableau(t));
             */
 
-            int[] t = { 200, 40, 15, 8, 6, 12 };
+            // int[] t = { 200, 40, 15, 8, 6, 12 };
+            const int TAILLE_TABLEAU = 20;
+
+            int[] t = new int[TAILLE_TABLEAU];
+            Random r = new Random();
+
+            for (int i = 0;i < t.Length; i++)
+            {
+                t[i] = r.Next(101)
+            }
+
             AfficherTableau(t);
 
 
