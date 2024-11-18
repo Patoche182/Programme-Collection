@@ -15,6 +15,10 @@
         static void AfficherTableau(int[] tableau)
         {
             ///
+            for (int i = 0; i <tableau.Length; i++)
+            {
+                Console.WriteLine("[" + i + "] " + tableau[i]);
+            }
         }
 
         static void Tableaux()
