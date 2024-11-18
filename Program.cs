@@ -101,9 +101,9 @@ namespace Programme_Collection
             */
         }
 
-        static void AfficherListe(List<int> liste)
+        static void AfficherListe(List<string> liste)
         {
-            for (int i = 0;i < liste.Count;i++)
+            for (int i = 0; i < liste.Count; i++)
             {
                 Console.WriteLine(liste[i]);
             }
@@ -113,6 +113,7 @@ namespace Programme_Collection
         {
             List<int> liste = new List<int>();
 
+            /* liste
             liste.Add(5);
             liste.Add(8);
             liste.Add(1);
@@ -125,6 +126,23 @@ namespace Programme_Collection
             liste.Add(44);
 
             AfficherListe(liste);
+            */
+
+
+            List<string> noms = new List<string>();  // Idem à ==>     var noms = new List<string>(); 
+            while (true)
+            {
+                Console.Write("Entrer un nom (Enter pour finir) : ");
+                string nom = Console.ReadLine();
+
+                if (nom == "")
+                {
+                    break;
+                }
+
+                noms.Add(nom);
+            }
+            AfficherListe(noms);
         }
 
         static void Main(string[] args)
@@ -133,7 +151,7 @@ namespace Programme_Collection
             Console.WriteLine("Liste !");
             //Tableaux();
             Listes();
-            
+
         }
     }
 }
