@@ -12,6 +12,11 @@
             return somme;
         }
 
+        static void AfficherTableau(int[] tableau)
+        {
+            ///
+        }
+
         static void Tableaux()
         {
             //int a = 5;
@@ -31,6 +36,8 @@
             //t[0] = 10;
 
             //Console.WriteLine(t[2]);
+
+            /*
             string[] t = { "Martin", "Emilie", "Paul" };
             Console.WriteLine(t[0][0]); // Affiche le 1er élément et le 1er charcarter de cet élément -> M
 
@@ -40,6 +47,12 @@
 
             }
             //Console.WriteLine("Somme : " + SommeTableau(t));
+            */
+
+            int[] t = { 200, 40, 15, 8, 6, 12 };
+            AfficherTableau(t);
+
+
         }
 
         static void Main(string[] args)
