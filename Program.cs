@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+
         static int SommeTableau(int[] t)
         {
             int somme = 0;
@@ -41,6 +42,7 @@
             }
             //Console.WriteLine("Somme : " + SommeTableau(t));
         }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Tableaux !");
