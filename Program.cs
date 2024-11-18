@@ -1,4 +1,6 @@
-﻿namespace Programme_Collection
+﻿using System.Diagnostics;
+
+namespace Programme_Collection
 {
     internal class Program
     {
@@ -82,6 +84,7 @@
             */
 
             // int[] t = { 200, 40, 15, 8, 6, 12 };
+            /*
             const int TAILLE_TABLEAU = 20;
 
             int[] t = new int[TAILLE_TABLEAU];
@@ -95,12 +98,42 @@
             AfficherTableau(t);
             AfficherValeurMaximal(t);
             AfficherValeurMinimal(t);
+            */
+        }
+
+        static void AfficherListe(List<int> liste)
+        {
+            for (int i = 0;i < liste.Count;i++)
+            {
+                Console.WriteLine(liste[i]);
+            }
+        }
+
+        static void Listes()
+        {
+            List<int> liste = new List<int>();
+
+            liste.Add(5);
+            liste.Add(8);
+            liste.Add(1);
+            liste.Add(10);
+            liste.Add(6);
+            liste.Add(3);
+
+            //liste.Remove(8);
+            liste.RemoveAt(2);
+            liste.Add(44);
+
+            AfficherListe(liste);
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Tableaux Aléatoire !");
-            Tableaux();
+            //Console.WriteLine("Tableaux Aléatoire !");
+            Console.WriteLine("Liste !");
+            //Tableaux();
+            Listes();
+            
         }
     }
 }
