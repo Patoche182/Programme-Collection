@@ -2,7 +2,6 @@
 {
     internal class Program
     {
-
         static int SommeTableau(int[] t)
         {
             int somme = 0;
