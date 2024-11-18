@@ -14,10 +14,37 @@
 
         static void AfficherTableau(int[] tableau)
         {
-            for (int i = 0; i <tableau.Length; i++)
+            for (int i = 0; i < tableau.Length; i++)
             {
                 Console.WriteLine("[" + i + "] " + tableau[i]);
             }
+        }
+
+
+        static void AfficherValeurMaximal(int[] t)
+        {
+            int max = t[0];
+            for (int i = 0; i < t.Length; i++)
+            {
+                if (t[i] > max)
+                {
+                    max = t[i];
+                }
+            }
+            Console.WriteLine("La valeur maximal est : " + max);
+        }
+
+        static void AfficherValeurMinimal(int[] t)
+        {
+            int min = t[0];
+            for (int i = 0; i < t.Length; i++)
+            {
+                if (t[i] < min)
+                {
+                    min = t[i];
+                }
+            }
+            Console.WriteLine("La valeur minimal est : " + min);
         }
 
         static void Tableaux()
@@ -60,19 +87,19 @@
             int[] t = new int[TAILLE_TABLEAU];
             Random r = new Random();
 
-            for (int i = 0;i < t.Length; i++)
+            for (int i = 0; i < t.Length; i++)
             {
-                t[i] = r.Next(101)
+                t[i] = r.Next(101);
             }
 
             AfficherTableau(t);
-
-
+            AfficherValeurMaximal(t);
+            AfficherValeurMinimal(t);
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Tableaux !");
+            Console.WriteLine("Tableaux Aléatoire !");
             Tableaux();
         }
     }
