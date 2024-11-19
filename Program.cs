@@ -128,7 +128,6 @@ namespace Programme_Collection
             AfficherListe(liste);
             */
 
-
             List<string> noms = new List<string>();  // Idem à ==>     var noms = new List<string>(); 
             while (true)
             {
@@ -151,7 +150,6 @@ namespace Programme_Collection
             Console.WriteLine("Liste !");
             //Tableaux();
             Listes();
-
         }
     }
 }
