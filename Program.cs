@@ -139,9 +139,21 @@ namespace Programme_Collection
                     break;
                 }
 
-                noms.Add(nom);
+                if (noms.Contains(nom))
+                {
+                    Console.WriteLine("Erreur, ce nom est déjà dans la liste.");
+                    Console.WriteLine();
+                }
+                else
+                {
+                    noms.Add(nom);
+                }
+
             }
             AfficherListe(noms);
+
+            //List<string> lesPremierNoms = noms.GetRange(0, 3);
+            //AfficherListe(lesPremierNoms);
         }
 
         static void Main(string[] args)
