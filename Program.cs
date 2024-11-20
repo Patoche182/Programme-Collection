@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 
+
 namespace Programme_Collection
 {
     internal class Program
@@ -21,6 +22,7 @@ namespace Programme_Collection
                 Console.WriteLine("[" + i + "] " + tableau[i]);
             }
         }
+
 
         static void AfficherValeurMaximal(int[] t)
         {
@@ -107,6 +109,7 @@ namespace Programme_Collection
                 Console.WriteLine(liste[i]);
             }
         }
+
 
         static void Listes()
         {
