@@ -22,7 +22,6 @@ namespace Programme_Collection
             }
         }
 
-
         static void AfficherValeurMaximal(int[] t)
         {
             int max = t[0];
