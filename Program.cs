@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 
-
 namespace Programme_Collection
 {
     internal class Program
