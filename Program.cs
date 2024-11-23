@@ -85,7 +85,7 @@ namespace Programme_Collection
 
             // int[] t = { 200, 40, 15, 8, 6, 12 };
             /*
-            const int TAILLE_TABLEAU = 20;
+            const int TAILLE_TABLEAU = 22;
 
             int[] t = new int[TAILLE_TABLEAU];
             Random r = new Random();
