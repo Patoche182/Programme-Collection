@@ -147,7 +147,6 @@ namespace Programme_Collection
                 {
                     noms.Add(nom);
                 }
-
             }
             AfficherListe(noms);
 
