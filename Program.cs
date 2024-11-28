@@ -1,12 +1,9 @@
 ﻿using System.Diagnostics;
 
-
 namespace Programme_Collection
 {
-
     internal class Program
     {
-
         static int SommeTableau(int[] t)
         {
             int somme = 0;
@@ -16,7 +13,6 @@ namespace Programme_Collection
             }
             return somme;
         }
-
 
         static void AfficherTableau(int[] tableau)
         {
@@ -39,7 +35,6 @@ namespace Programme_Collection
             Console.WriteLine("La valeur maximal est : " + max);
         }
 
-
         static void AfficherValeurMinimal(int[] t)
         {
             int min = t[0];
@@ -52,7 +47,6 @@ namespace Programme_Collection
             }
             Console.WriteLine("La valeur minimal est : " + min);
         }
-
 
         static void Tableaux()
         {
@@ -114,7 +108,6 @@ namespace Programme_Collection
             }
         }
 
-
         static void Listes()
         {
             List<int> liste = new List<int>();
@@ -155,7 +148,6 @@ namespace Programme_Collection
                     noms.Add(nom);
                 }
             }
-
             AfficherListe(noms);
 
             //List<string> lesPremierNoms = noms.GetRange(0, 3);
