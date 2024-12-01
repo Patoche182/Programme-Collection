@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Programme_Collection
+﻿namespace Programme_Collection
 {
     internal class Program
     {
@@ -107,7 +105,6 @@ namespace Programme_Collection
                 Console.WriteLine(liste[i]);
             }
         }
-
         static void Listes()
         {
             List<int> liste = new List<int>();
