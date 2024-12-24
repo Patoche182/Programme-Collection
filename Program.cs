@@ -101,6 +101,7 @@
             */
         }
 
+
         static void AfficherListe(List<string> liste)
         {
             for (int i = 0; i < liste.Count; i++)
@@ -108,6 +109,7 @@
                 Console.WriteLine(liste[i]);
             }
         }
+
 
         static void Listes()
         {
@@ -119,6 +121,9 @@
             liste.Add(1);
             liste.Add(10);
             liste.Add(6);
+            liste.Add(3);
+            liste.Add(3);
+            liste.Add(3);
             liste.Add(3);
 
             //liste.Remove(8);
@@ -150,10 +155,10 @@
                 }
             }
             AfficherListe(noms);
-
             //List<string> lesPremierNoms = noms.GetRange(0, 3);
             //AfficherListe(lesPremierNoms);
         }
+
 
         static void Main(string[] args)
         {
