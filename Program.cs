@@ -1,5 +1,4 @@
 ﻿namespace Programme_Collection
-
 {
     internal class Program
     {
@@ -13,6 +12,7 @@
             return somme;
         }
 
+
         static void AfficherTableau(int[] tableau)
         {
             for (int i = 0; i < tableau.Length; i++)
@@ -20,6 +20,7 @@
                 Console.WriteLine("[" + i + "] " + tableau[i]);
             }
         }
+
 
         static void AfficherValeurMaximal(int[] t)
         {
@@ -34,6 +35,7 @@
             Console.WriteLine("La valeur maximal est : " + max);
         }
 
+
         static void AfficherValeurMinimal(int[] t)
         {
             int min = t[0];
@@ -46,6 +48,7 @@
             }
             Console.WriteLine("La valeur minimal est : " + min);
         }
+
         static void Tableaux()
         {
             /*
@@ -105,6 +108,7 @@
                 Console.WriteLine(liste[i]);
             }
         }
+
         static void Listes()
         {
             List<int> liste = new List<int>();
@@ -115,8 +119,6 @@
             liste.Add(1);
             liste.Add(10);
             liste.Add(6);
-            liste.Add(3);
-            liste.Add(3);
             liste.Add(3);
 
             //liste.Remove(8);
