@@ -122,9 +122,6 @@
             liste.Add(10);
             liste.Add(6);
             liste.Add(3);
-            liste.Add(3);
-            liste.Add(3);
-            liste.Add(3);
 
             //liste.Remove(8);
             liste.RemoveAt(2);
