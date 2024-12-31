@@ -12,7 +12,6 @@
             return somme;
         }
 
-
         static void AfficherTableau(int[] tableau)
         {
             for (int i = 0; i < tableau.Length; i++)
@@ -20,7 +19,6 @@
                 Console.WriteLine("[" + i + "] " + tableau[i]);
             }
         }
-
 
         static void AfficherValeurMaximal(int[] t)
         {
@@ -34,7 +32,6 @@
             }
             Console.WriteLine("La valeur maximal est : " + max);
         }
-
 
         static void AfficherValeurMinimal(int[] t)
         {
@@ -110,7 +107,6 @@
             }
         }
 
-
         static void Listes()
         {
             List<int> liste = new List<int>();
@@ -120,6 +116,8 @@
             liste.Add(8);
             liste.Add(1);
             liste.Add(10);
+            liste.Add(10);
+            liste.Add(6);
             liste.Add(6);
             liste.Add(3);
 
@@ -155,7 +153,6 @@
             //List<string> lesPremierNoms = noms.GetRange(0, 3);
             //AfficherListe(lesPremierNoms);
         }
-
 
         static void Main(string[] args)
         {
