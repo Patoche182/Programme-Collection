@@ -116,8 +116,6 @@
             liste.Add(8);
             liste.Add(1);
             liste.Add(10);
-            liste.Add(10);
-            liste.Add(6);
             liste.Add(6);
             liste.Add(3);
 
