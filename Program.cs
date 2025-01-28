@@ -119,8 +119,6 @@
             liste.Add(6);
             liste.Add(6);
             liste.Add(3);
-            liste.Add(3);
-            liste.Add(3);
 
             //liste.Remove(8);
             liste.RemoveAt(2);
@@ -132,7 +130,7 @@
             List<string> noms = new List<string>();  // Idem à ==>     var noms = new List<string>(); 
             while (true)
             {
-                Console.Write("Entrer un nom (ENTER pour finir) : ");
+                Console.Write("Entrer un nom (ENTER pour finir) :");
                 string nom = Console.ReadLine();
 
                 if (nom == "")
