@@ -156,8 +156,8 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Tableaux Aléatoire !");
-            Console.WriteLine("Liste !");
             //Tableaux();
+            Console.WriteLine("Liste !");
             Listes();
         }
     }
